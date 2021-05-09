@@ -1,0 +1,96 @@
+body {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+ul {
+    font-family: helvetica;
+    
+}
+li {
+    list-style: circle;
+  }
+  
+  .list {
+    list-style: square;
+  }
+  
+
+  :root {
+    --blue: #96ddf3;
+    --white: #ffffff;
+    --black: #070707;
+    --purple: #7706a3d7;
+    --orange: #f3b0c1d7;
+  }
+
+
+  .light-theme {
+    --bg: var(--blue);
+    --fontColor: var(--white);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+    background-image: url("winter.jpg");
+    height: 200%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--orange);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+    background-image:url("winter2.jpg");
+    height: 200%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+  }
+
+  * {
+    color: var(--fontColor);
+    font-family: helvetica;
+  }
+  
+  body {
+      background: var(--bg);
+  }
+  .btn {
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+  .btn {
+    position: fixed;
+    top: 20px;
+    right:20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+  .btn:focus { outline-style: none; }
+
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: normal;
+  }
+  
+  .sf-snow-flake {
+    position: fixed;
+    top: -20px;
+    z-index: 99999;
+    }
+    .sf-snow-anim {
+    top: 110%;
+    }
