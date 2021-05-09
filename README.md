@@ -1,1 +1,1 @@
-# https://sellrin/sellrin.github.io
+# https://sellrin.github.io
