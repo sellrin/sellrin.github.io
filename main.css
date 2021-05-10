@@ -42,7 +42,7 @@ li {
     --fontColor: var(--orange);
     --btnBg: var(--white);
     --btnFontColor: var(--black);
-    background-image:url("Winter2.jpg");
+    background-image:url("winter2.JPG");
     height: 200%;
     background-repeat: no-repeat;
     background-attachment: fixed;
